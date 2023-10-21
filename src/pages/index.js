@@ -19,6 +19,7 @@ import dhikar from '../images/dhikar.png';
 import bennonsolutions from '../images/bennonsolutions.png';
 import knowledgehut from '../images/knowledgehut.png';
 import ibbma from '../images/ibbma.png';
+import yasmeenbaig from '../images/yasmeenbaig.png';
 
 
 
@@ -42,6 +43,7 @@ const IndexPage = () => {
             <Card title="Bennon Solutions" description="" img={bennonsolutions} link="https://bennonsolutions.com/"/>
             <Card title="KnowledgeHut London" description="" img={knowledgehut} link="https://knowledgehut.org.uk"/>
             <Card title="ibbma" description="" img={ibbma} link="https://ibbma.net/"/>
+            <Card title="yasmeenbaig" description="" img={yasmeenbaig} link="https://yasmeenbaig.com/"/>
           </div>
         </section>
     </main>
