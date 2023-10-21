@@ -13,7 +13,7 @@ import rba from '../images/rba.png';
 import farazi from '../images/farazi.png';
 import lepetit from '../images/lepetit.png';
 import sunmark from '../images/sunmark.png';
-import dhikr from '../images/dhikr.png';
+import dhikar from '../images/dhikar.png';
 
 
 
@@ -33,7 +33,7 @@ const IndexPage = () => {
           <Card title="Farazi Technology" description="" img={farazi} link="https://farazitechnology.com.bd/"/>
           <Card title="Lepetit Boismoseley" description="" img={lepetit} link="https://lepetitboismoseley.com/"/>
           <Card title="Sunmark Media" description="" img={sunmark} link="https://sunmarkbd.com/"/>
-          <Card title="Dhikr.org" description="" img={dhikr} link="https://dhikr.org/"/>
+          <Card title="Dhikar.org" description="" img={dhikar} link="https://dhikar.org/"/>
         </div>
         </section>
     </main>
