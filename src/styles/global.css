@@ -4,7 +4,8 @@
 }
 :root{
     --primary:#8219bf;
-    --primary-dark:#6d13a2;
+    --primary-dark:#5b0d88;
+    --primary-light:#d389fe;
     --white:#fff;
 }
 
@@ -31,4 +32,12 @@
     --bs-btn-disabled-color: var(--white);
     --bs-btn-disabled-bg: var(--primary);
     --bs-btn-disabled-border-color: var(--primary);
+  }
+
+  .nav-link{
+    color: var(--white);
+  }
+  .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: var(--white);
+    border-bottom: 1px solid var(--white);
   }
