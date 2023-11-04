@@ -15,7 +15,7 @@ export default function Navbar() {
             <div class="navbar-nav ms-auto">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                 <a class="nav-link" href="#portfolio">Portfolio</a>
-                <a class="nav-link" href={cv} download>Download CV</a>
+                <a class="btn btn-warning btn-small" href={cv} download>Download CV</a>
 
             </div>
             </div>
