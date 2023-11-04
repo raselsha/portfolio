@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link} from "gatsby"
+import cv from '../images/Shahadat_hossain_cv.pdf'
 
 export default function Navbar() {
   return (
@@ -13,6 +15,8 @@ export default function Navbar() {
             <div class="navbar-nav ms-auto">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                 <a class="nav-link" href="#portfolio">Portfolio</a>
+                <a class="nav-link" href={cv} download>Download CV</a>
+
             </div>
             </div>
         </div>
