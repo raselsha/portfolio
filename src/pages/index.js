@@ -8,6 +8,7 @@ import Navbar from "../components/Navbar";
 import Card from "../components/Card"
 import duallayer from '../images/duallayer.png';
 import bluecreek from '../images/bluecreek.png';
+import naturestaybynsfarms from '../images/naturestaybynsfarms.png';
 import bluestone from '../images/bluestone.png';
 import fortune from '../images/fortune.png';
 import cmx from '../images/cmx.png';
@@ -32,6 +33,7 @@ const IndexPage = () => {
           <div className="row">
             <Card title="Duallayer Cyber" description="" img={duallayer} link="https://duallayercyber.com"/>
             <Card title="Bluecreek Asset" description="" img={bluecreek} link="https://www.bluecreekasset.com/"/>
+            <Card title="Nature Stay By NS Farms" description="" img={naturestaybynsfarms} link="https://www.naturestaybynsfarms.com/"/>
             <Card title="Bluestone TS" description="" img={bluestone} link="https://bluestonets.com/"/>
             <Card title="Fortune Cloud" description="" img={fortune} link="https://fortunecloud.us/"/>
             <Card title="Cmx Chat" description="" img={cmx} link="https://www.cmxchat.com/"/>
